@@ -1,0 +1,11 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+  datasource:
+    url: jdbc:postgresql://localhost:5432/market_project
+    username: postgres
+    password: qwer123
+  flyway:
+    baseline-on-migrate: true
